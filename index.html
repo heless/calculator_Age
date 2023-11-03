@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="JS/1Variable.js" defer></script>
+  <script src="JS/2gestionErreur.js" defer></script>
+  <script src="JS/3calculDeAge.js" defer></script>
+  <script src="JS/4main.js" type="module" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <main>
+    <form id="formAge" action="">
+
+      <div class="item_form">
+        <legend class="day" for="Day">Day</legend>
+        <input id="userDay" class="day_input"   placeholder="JJ">
+      </div>
+
+      <div  class="item_form">
+        <legend class="month" for="month">month</legend>
+        <input id="userMonth" class="month_input"  max="12" min="1" placeholder="MM" >
+      </div>
+
+      <div class="item_form">
+        <legend class="years" for="Year">years</legend>
+        <input  id="userYears" class="years_input" placeholder="YYYY" >
+      </div>
+
+    </form>
+
+    <section class="diviseur">
+
+       <span class="diviseur_line"></span>
+
+      <img id="btn_submit" class="diviseur_img Submitbtn"  src="assets/images/icon-arrow.svg" alt="">
+
+    </div>
+
+    <div class="result">
+      <div  class="item_result">
+        <span id="result-years" class="purple">--</span>
+        <span class="year_result_text">years</span>
+      </div>
+
+      <div  class="item_result">
+        <span id="result-months" class="purple">--</span>
+        <span class="months_result_text">months</span>
+      </div>
+
+      <div  id="" class="item_result"> 
+        <span id="result-days" class="purple">--</span>
+        <span class="days_result_text">Days</span>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Heless fanel</a>.
+  </footer>
+
+</body>
+</html>
